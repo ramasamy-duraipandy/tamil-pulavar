@@ -2,7 +2,7 @@ This is the sourcecode for www.tamilpulavar.org
 
 # SETUP
 
-Update the database username, password and host in www.tamilpulavar.org/connection.php
+Update the database username, password and host in connection.php
 
 # DB setup
 
