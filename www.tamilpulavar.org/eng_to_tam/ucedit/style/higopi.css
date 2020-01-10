@@ -1,0 +1,357 @@
+/*  Gopi's Unicode Converters Version 2.0
+    Copyright (C) 2007  Gopalakrishnan (Gopi) http://www.higopi.com
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+    Further to the terms mentioned you should leave this copyright notice
+    intact, stating me as the original author.
+*/
+
+*{
+padding:0;
+margin:0;
+}
+
+#Inner
+{
+	margin-top: 0px;
+}
+
+#Container
+{
+	width: 900px;
+	margin: 0px auto;
+	background-color:white;
+}
+
+
+#Head_left
+{
+	height: 152px;
+	width: 294px;
+	float: left;
+}
+
+
+
+
+#Leaf_bottom1 a
+{
+	display:none;
+	color: #88eeff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 12px;
+	padding-top: 15px;
+	padding-right:25px;
+	padding-left:30px;
+}
+
+#Leaf_bottom1 a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.blue
+{
+	color: #0e88af;
+}
+
+#Informations
+{
+    font-size: 15px;
+    padding-left: 42px;
+    padding-top: 8px;
+    color: #369;
+    text-align:left;
+}
+
+#news_section
+{display:none;
+}
+#Top_menu a
+{
+	display:none;
+	height: 51px;
+	float: left;
+	color: #0e88af;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right:5px;
+	padding-left:35px;
+}
+
+#Top_menu a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+#LeftPart
+{
+	width: 215px;
+	background-color: #fbfdfe;
+/*	margin-top: -12px; */
+	float: left;
+}
+
+*>#LeftPart
+{
+    margin-top: 8px;
+}
+
+#Menu
+{
+	
+    width: 215px;
+    float: left;
+}
+
+#Menu_header
+{
+	display:none;
+    width: 215px;
+    height: 31px;
+}
+
+#Logo
+{
+	display:none;
+}
+
+.menu_text
+{
+	display:none;
+	color: #0e88af;
+	font-weight: bold;
+	line-height: 31px;
+	padding-left: 14px;
+}
+
+#Menu_content
+{
+	float: left;
+	width: 205px;
+	padding: 5px;
+	text-align:left;
+}
+
+#Menu_content a
+{
+	background: #f5fdff;
+	text-decoration:none;
+	display:block;
+	border: solid 1px white;
+	font-weight:bold;
+}
+
+#Menu_content a.selconvbtn
+{
+	display:none;
+		background:#0e88af; font-size: 10pt; color:white; text-decoration:none;
+}
+
+#Menu_content a.selconvbtn:hover
+{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#Menu_content a:hover
+{
+    text-decoration: underline;
+    color: #0e88af;
+}
+
+#Menu_content img
+{
+    padding-left:35px;
+}
+
+#CentralPart
+{
+	background-color: #fbfdfe;
+	float: left;
+}
+
+
+#RightPart
+{
+	width: 680px;
+	float: right;
+	clear: left;
+	background-color: #f5fdfd;
+	margin-top: -12px;
+	text-align:left;
+}
+
+*>#RightPart
+{
+    margin-top: 8px;
+    clear: right;
+    margin-left: 5px;
+}
+
+#Page
+{
+	width: 675px;
+	padding: 5px;
+	padding-right: 0px;
+}
+
+*>#Page
+{
+	padding: 5px;
+}
+
+#Page_header
+{
+	background-color: white;
+	padding: 8px;
+	padding-right: 0px;
+	padding-left: 5px;
+	width: 669px;
+}
+
+#Page_header p
+{
+	padding-left: 5px;
+}
+
+#Page_header ol
+{
+	padding-top:10px;
+	padding-left: 35px;
+	padding-bottom:10px;
+}
+
+#Page_header ul
+{
+	padding-top:10px;
+	padding-left: 35px;
+	padding-bottom:10px;
+}
+
+
+#Page_header tr
+{
+	width: 670px;
+}
+
+#Page_header h2
+{
+	color: #0e88af;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom:10px;
+	padding-top:10px;
+/*	line-height: 5px; */
+}
+
+#Page_header h3
+{
+	color: #0e88af;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom:10px;
+	padding-top:10px;
+/*	line-height: 5px; */
+}
+
+#Page_header h4
+{
+ 	background-color:#0e88af;
+ 	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom:5px;
+}
+
+#Page_top
+{
+	background-color: #a5d7e9;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	color: #074d64;
+	width: 900px;
+    float: left;
+}
+
+#Page_top p
+{
+    padding: 5px;
+}
+
+#Page_top a
+{
+    color: #074d64;
+}
+
+#Page_center
+{
+    width: 900px;
+}
+
+
+#Page_center tr
+{
+    width: 669px;
+    margin-bottom: 5px;
+}
+
+#Bottom
+{
+	width: 900px;
+	float: left;
+	margin-top: 5px;
+}
+
+table.convbtn { 	border: 1px inset; }
+td.selconvbtn {	border: 1px outset;  background-color:#0e88af; }
+a.selconvbtn {  font-size: 10pt; color:white; text-decoration:none;}
+td.convbtn {	border: 1px outset;  background-color:#aaccff; }
+a.convbtn {	font-size: 10pt; color:#003366; text-decoration:none;}
+
+#Page_header h2.converters
+{
+	font-family:Code2000;
+	background-color:#0e88af;
+	color:#ffffff;
+	font-size:12pt;
+}
+
+textarea.converters
+{
+	font-family:Code2000;
+	font-size:10pt;
+	height:590;
+	width:660;
+}
+
+code
+{
+	color:black;
+}
+.redbold { font-weight:bold; color:red }

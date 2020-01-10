@@ -1,0 +1,1 @@
+[31-Oct-2016 06:29:56 Etc/GMT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ultisg2t/public_html/www.tamilpulavar.org/aggregator/connection.php on line 2

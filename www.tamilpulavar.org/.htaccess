@@ -1,0 +1,10 @@
+Options +FollowSymLinks -MultiViews -indexes
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(.*)/$ $1 [R=301,L]
+RewriteCond %{THE_REQUEST} /(?:index\.php)?\?word=([^\s&]+) [NC]
+RewriteRule ^ /%1? [R=302,L,NE]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+?)/?$ /index.php?word=$1 [L,QSA]
